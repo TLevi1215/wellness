@@ -8,4 +8,16 @@ body{background-image: url(../img/hatter.jpg.jpg);
 
 .tz{padding-top: 10px;}     
 
-     
+.ur{border: 2px solid grey;
+    margin-top: 7px;
+    padding: 5px;
+    border-radius: 10px;}  
+
+.pl{text-align: left ;
+    list-style: none;}
+
+.kf{margin-right: -40px;} 
+
+.cimek{text-align: center;}
+
+    
