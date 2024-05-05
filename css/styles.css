@@ -21,8 +21,54 @@ body{background-image: url(../img/hatter.jpg.jpg);
 
 .cimek{text-align: center;}
 
-.lol{padding: 10px;
+.lol{padding: 15px;
      background-color: rgba(255, 255, 255, 0.8);
      border-radius: 10px;}
 
+.kt{color: black;
+    text-decoration: none;
+    font-size: 16px;}
+    
+.kt:hover{text-decoration: underline;}   
+    
+.ktt{list-style: none;}    
+
+.kezd p{text-align: justify;}
+
+p{font-size: 17px;}
+
+footer{background: -webkit-linear-gradient(45deg ,rgba(255, 0, 0, 0.5),rgba(255, 166, 0, 0.5),rgba(255, 0, 0, 0.5));
+       background-size: 300% 300%;
+       animation: color 12s ease-in-out infinite;
+       padding: 15px;
+       border-radius: 15px;
+       padding-top: 25px;}
+
+@keyframes color{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}       
+
+.up{margin-right: 100px;}
+
+.up2{margin-right: -100px;}
+
+.lp{color: black;
+    text-decoration: none;}
+    
+.lp:hover{text-decoration: underline;}
+
+.ék{color: black;
+    text-decoration: none;}
+
+.ék:hover{text-decoration: underline;}    
     
