@@ -9,10 +9,14 @@ body{background-image: url(../img/hatter.jpg.jpg);
 
 .tz{padding-top: 10px;}     
 
-.ur{border: 2px solid grey;
+.ur{border: 2px solid white;
     margin-top: 7px;
     padding: 5px;
-    border-radius: 10px;}  
+    border-radius: 10px;
+    background: -webkit-linear-gradient(25deg ,rgba(255, 0, 0, 0.4),rgba(255, 166, 0, 0.4),rgba(255, 0, 0, 0.4));
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    backdrop-filter: blur(10px);}  
 
 .pl{text-align: left ;
     list-style: none;}
@@ -22,8 +26,10 @@ body{background-image: url(../img/hatter.jpg.jpg);
 .cimek{text-align: center;}
 
 .lol{padding: 15px;
-     background-color: rgba(255, 255, 255, 0.8);
-     border-radius: 10px;}
+    background: -webkit-linear-gradient(45deg ,rgba(255, 0, 0, 0.6),rgba(255, 166, 0, 0.6),rgba(255, 0, 0, 0.6));
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    border-radius: 10px;}
 
 .kt{color: black;
     text-decoration: none;
@@ -42,7 +48,8 @@ footer{background: -webkit-linear-gradient(45deg ,rgba(255, 0, 0, 0.5),rgba(255,
        animation: color 12s ease-in-out infinite;
        padding: 15px;
        border-radius: 15px;
-       padding-top: 25px;}
+       padding-top: 25px;
+       backdrop-filter: blur(10px);}
 
 @keyframes color{
     0%{
@@ -71,4 +78,7 @@ footer{background: -webkit-linear-gradient(45deg ,rgba(255, 0, 0, 0.5),rgba(255,
     text-decoration: none;}
 
 .ék:hover{text-decoration: underline;}    
+
+.ko{background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;}
     
