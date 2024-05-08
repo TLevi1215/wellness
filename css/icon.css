@@ -3,4 +3,8 @@
 
  .pl{margin-right: 25px;}
 
+ .zi{display: grid;
+     position: fixed;
+     z-index: 10;}
+
 }

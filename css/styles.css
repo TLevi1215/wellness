@@ -7,7 +7,7 @@ body{background-image: url(../img/hatter.jpg.jpg);
      font-weight: bold;
      margin-right: 20%;}
 
-.tz{padding-top: 10px;}     
+.tz{padding-top: 7px;}     
 
 .ur{border: 2px solid white;
     margin-top: 7px;
@@ -19,8 +19,7 @@ body{background-image: url(../img/hatter.jpg.jpg);
     backdrop-filter: blur(10px);}  
 
 .pl{text-align: left ;
-    list-style: none;
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);}
+    list-style: none;}
 
 .kf{margin-right: -40px;} 
 
@@ -30,7 +29,8 @@ body{background-image: url(../img/hatter.jpg.jpg);
     background: -webkit-linear-gradient(45deg ,rgba(255, 0, 0, 0.6),rgba(255, 166, 0, 0.6),rgba(255, 0, 0, 0.6));
     background-size: 300% 300%;
     animation: color 12s ease-in-out infinite;
-    border-radius: 10px;}
+    border-radius: 10px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);}
 
 .kt{color: black;
     text-decoration: none;
@@ -83,5 +83,19 @@ footer{background: -webkit-linear-gradient(45deg ,rgba(255, 0, 0, 0.5),rgba(255,
 .ko{background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;}
 
-
+.zi{background: -webkit-linear-gradient(45deg ,rgba(255, 0, 0, 0.5),rgba(255, 166, 0, 0.5),rgba(255, 0, 0, 0.5));
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    border-radius: 0px 0px 25px 25px;
+    backdrop-filter: blur(10px);
+    padding-left: 15px;}
     
+.zia{background-color: rgba(255, 255, 255, 0.6);
+     border-radius: 0px 0px 25px 25px;}    
+    
+#pills-content-tab{color: black;
+                   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);}   
+                 
+
+              
+               
