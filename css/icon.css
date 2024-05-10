@@ -7,4 +7,18 @@
      position: fixed;
      z-index: 10;}
 
+  .zia{display: none;}
+
+  .lé{display: grid;}
+
+  .cem{color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 20%;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;}
+
+   .lé li{display: inline;
+          text-align: center;} 
+
 }
