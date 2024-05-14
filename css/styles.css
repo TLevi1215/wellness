@@ -107,3 +107,6 @@ hr{width: 230px;
 .megnezem{color: green;}
 
 .elorefizetes{color: lightgreen;}
+
+#pills-content-tab:focus{backdrop-filter: blur(10px);
+                         border-radius: 15px;}
